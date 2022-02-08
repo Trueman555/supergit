@@ -1,6 +1,6 @@
 package homeWork.massive.twoMassive;
 //Есть матрица. Посчитать сумму элементов в каждой строке
-
+//+
 public class twoDA7 {
     public static void main(String[] args) {
 
