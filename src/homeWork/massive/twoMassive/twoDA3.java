@@ -3,7 +3,7 @@ package homeWork.massive.twoMassive;
 //        все строки одинаковой длины !=числу столбцов) и заполняет (через сканнер)
 
 import java.util.Scanner;
-
+//+
 public class twoDA3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
