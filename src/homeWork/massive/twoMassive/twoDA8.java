@@ -1,6 +1,7 @@
 package homeWork.massive.twoMassive;
 
 //Есть матрица (квадратная). Посчитать сумму элементов, расположенных на главной диагонали
+//+
 public class twoDA8 {
     public static void main(String[] args) {
 
