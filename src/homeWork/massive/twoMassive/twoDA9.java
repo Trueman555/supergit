@@ -2,7 +2,7 @@ package homeWork.massive.twoMassive;
 //Создать Jagged Array  с помощью пользователя и сканера.
 //  int[][] myArray = {{1,2,3}, {56},{1,2,6,1,3,1,3},{2,2}}
 import java.util.Scanner;
-
+//+
 public class twoDA9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
