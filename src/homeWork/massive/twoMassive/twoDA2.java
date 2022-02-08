@@ -1,7 +1,8 @@
 package homeWork.massive.twoMassive;
 
 import java.util.Scanner;
-
+//condition?
+//+
 public class twoDA2 {
     public static void main(String[] args) {
 
