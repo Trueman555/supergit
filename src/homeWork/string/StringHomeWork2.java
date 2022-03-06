@@ -1,7 +1,7 @@
 package homeWork.string;
 
 import java.util.Scanner;
-
+//1.Methods!2.let user enter a word(s)
 public class StringHomeWork2 {
     public static void main(String[] args) {
         String word1="Shalala";
