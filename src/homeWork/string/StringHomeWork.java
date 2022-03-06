@@ -2,7 +2,7 @@ package homeWork.string;
 //найти есть ли заданный символв строке
 
 import java.util.Scanner;
-
+//split your code into METHODS!
 public class StringHomeWork {
     public static void main(String[] args) {
         String sistemOfADown="Lost in Hollywood";
