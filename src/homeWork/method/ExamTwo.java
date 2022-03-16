@@ -23,7 +23,21 @@ public class ExamTwo {
                     "2: random numbers");
             int choicetwo=scanner.nextInt ();
             int[] array=new int[findeArrayLength (scanner)];
-
+/*you could do this:
+int[] initNumArray = new int[0];
+ if (choicetwo == 1) {
+                initNumArray=initConsoleArray (scanner, array);
+            } else {
+                initNumArray=initRandomArray (array);
+            }
+            System.out.println ("Origin array: " + Arrays.toString (initNumArray));
+            determinMax (initNumArray);
+            determinMin (initNumArray);
+            sort (initNumArray);
+            System.out.println ("Sorted array: " + Arrays.toString (initNumArray));
+            findIndex (initNumArray, scanner);
+ This changes make your code better:)
+*/
             if (choicetwo == 1) {
                 int[] arrayConsole=initConsoleArray (scanner, array);
                 System.out.println ("Origin array: " + Arrays.toString (arrayConsole));
@@ -70,7 +84,7 @@ public class ExamTwo {
         }
         return length;
     }
-
+//return max, print it's value after. Your method name does not say anything about printing!
     static void determinMax(int array[]) {
         int max=array[0];
         for (int i=0; i < array.length; i++) {
@@ -79,7 +93,7 @@ public class ExamTwo {
         }
         System.out.println ("Max: " + max);
     }
-
+//same as determinMax ,ethod
     static void determinMin(int array[]) {
         int min=array[0];
         for (int i=0; i < array.length; i++) {
@@ -109,7 +123,8 @@ public class ExamTwo {
         int number=scanner.nextInt ();
         for (int i=0; i < array.length; ++i) {
             if (array[i] == number)
-                System.out.println ("Index: " + i);
+                //return i;
+                System.out.println ("Index: " + i);//do not print it here! Do it when this method will be called outside.
         }
         return -1;
     }
@@ -129,7 +144,7 @@ public class ExamTwo {
         int randomNumber=random.nextInt ();
         for (int i=0; i < array.length; i++) {
             array[i]=array[i].replace (letter, String.valueOf (randomNumber));
-            System.out.println (array[i]);
+            System.out.println (array[i]);//do not print it here! Your method name does not say anything about printing!
         }
         return array;
 
