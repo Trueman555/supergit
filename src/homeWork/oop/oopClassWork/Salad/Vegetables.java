@@ -2,6 +2,7 @@ package homeWork.oop.oopClassWork.Salad;
 
 abstract public class Vegetables {
     private int calories;
+    //int - > double
     private int weight;
     //you can get it from toy class names - Tomato... as getClass().getSimpleName()
     private String name;
